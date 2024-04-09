@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INICIANDO O DOM</title>
+    <style>
+        body {
+            background-color: rgba(15, 92, 0, 0.747);
+            color: rgb(226, 214, 43);
+            font: 200;
+            
+    </style>
+</head>
+<body>
+ <h1>'iniciando e <strong>DOM</strong>'</h1>
+ <p>aqui vai um resultado</p>
+ <p>o gato bebe leite</p>
+ <div id="msg"> clique em mim</div>
+ <script>
+    corpo = window.document.body
+    /*p1 = window.document.getElementsByTagName('p')[0]
+    d = window.document.getElementById ('msg')
+    d.style.background = 'green'
+    p1.style.color = 'red' 
+    d.innerText = 'nao sei'*/
+    d = window.document.querySelector('div#msg') 
+    d.style.background = 'blue'
+    d.style.color = 'red' </script>
+  
+    
+   
